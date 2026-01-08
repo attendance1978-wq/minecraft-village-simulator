@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Realistic Minecraft Village Simulator</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Realistic Minecraft Village Simulator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="hud"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/stats.js@0.17.0/build/stats.min.js"></script>
-<script type="module" src="main.js"></script>
-<script type="module" src="bs.js"></script>
+    <div id="hud">
+        <div id="fps"></div>
+        <div id="randomText">Random Text</div>
+        <div id="cameraPos"></div>
+        <div id="chunkCount"></div>
+        <div id="villageCount"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/stats.js@0.17.0/build/stats.min.js"></script>
+    
+    <script type="module" src="main.js"></script>
+
 </body>
 </html>
