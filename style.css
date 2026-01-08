@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #87ceeb;
+}
+
+#hud {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-family: monospace;
+  background: rgba(0,0,0,0.5);
+  padding: 6px;
+  z-index: 10;
+  line-height: 1.4em;
+}
